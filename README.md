@@ -1,78 +1,105 @@
-<!-- 🎨 BANNER — capsule-render -->
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=180&section=header&text=Alan%20Fernández&fontSize=42&fontColor=fff&animation=twinkling&fontAlignY=32&desc=Fullstack%20Developer%20·%20React%20·%20Node.js%20·%20Java%20·%20Python&descAlignY=55&descSize=18"/>
+<div align="center">
 
-<!-- ✍️ TYPING ANIMATION — readme-typing-svg -->
-<p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=24&duration=3000&pause=800&color=58A6FF&center=true&vCenter=true&random=false&width=550&lines=Hey%2C+I'm+Alan+%F0%9F%91%8B;Fullstack+Developer+%F0%9F%9A%80;Java+%7C+Python+%7C+PHP+%7C+JavaScript;I+build+things+that+people+love+%E2%9D%A4%EF%B8%8F" alt="Typing SVG" />
-</p>
+![Header](https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=200&section=header&text=Alan%20Fernández&fontSize=42&fontColor=fff&animation=twinkling&fontAlignY=32&desc=Full%20Stack%20Developer%20%7C%20React%20%7C%20Node.js%20%7C%20TypeScript%20%7C%20Python&descAlignY=55&descSize=18)
+
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=22&duration=3000&pause=800&color=58A6FF&center=true&vCenter=true&random=false&width=550&lines=Hey%2C+I'm+Alan+%F0%9F%91%8B;Full+Stack+Developer+%F0%9F%9A%80;Building+real+products%2C+not+just+tutorials;React+%7C+Node.js+%7C+TypeScript+%7C+Python)](https://git.io/typing-svg)
+
+</div>
 
 ---
 
-<!-- 🧠 ABOUT ME -->
+## 🧑‍💻 About Me
 
 ```javascript
 const alan = {
-  name:     "Alan Fernández",
-  role:     "Fullstack Developer",
-  stack:    ["React", "Node.js", "Express", "Java", "Python", "PHP", "MySQL", "SQL"],
-  passion:  "Building products that actually solve problems",
-  motto:    "Clean code today = less pain tomorrow 🧘"
+  name:       "Alan Fernández",
+  role:       "Full Stack Developer",
+  stack:      ["React", "Node.js", "TypeScript", "Python", "PostgreSQL"],
+  learning:   ["Next.js", "RAG Systems", "AI Integration"],
+  looking:    "First professional role as Full Stack Developer",
+  openTo:     ["Remote", "Spain", "International"],
+  motto:      "Build things that actually work 🚀"
 };
 ```
 
 ---
 
-<!-- 🛠️ BADGES — markdown-badges -->
+## 🚀 Featured Projects
+
+### 🎬 [Cinesfera](https://github.com/AlansitoFdez/Cinesfera)
+> Plataforma social full stack al estilo Letterboxd con integración de IA
+
+- 🔍 Búsqueda de películas y series con disponibilidad en plataformas de streaming
+- 📋 Listas personalizadas, reseñas y sistema social entre usuarios
+- 🤖 Recomendaciones de IA basadas en favoritos y reseñas
+- 🔗 API REST propia integrada con TMDB
+
+**Stack:** React · Tailwind CSS · GSAP · Node.js · Express · JWT · PostgreSQL
+
+[![Ver App](https://img.shields.io/badge/🌐_Ver_App-Live-success?style=for-the-badge)](https://cinesfera.vercel.app)
+[![Repo](https://img.shields.io/badge/📂_Código-GitHub-181717?style=for-the-badge&logo=github)](https://github.com/AlansitoFdez/Cinesfera)
+
+---
+
+### 🤖 Sistema RAG con IA *(En construcción)*
+> Software de recuperación aumentada de información con IA
+
+**Stack:** Next.js · TypeScript · Python
+
+---
+
+## 🛠️ Tech Stack
+
+**Frontend**
+
+![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
+![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-323330?style=for-the-badge&logo=javascript&logoColor=F7DF1E)
+![Next.js](https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white)
+![TailwindCSS](https://img.shields.io/badge/TailwindCSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)
+![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
+![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
+
+**Backend**
+
+![Node.js](https://img.shields.io/badge/Node.js-6DA55F?style=for-the-badge&logo=node.js&logoColor=white)
+![Express.js](https://img.shields.io/badge/Express.js-404D59?style=for-the-badge&logo=express&logoColor=61DAFB)
+![Python](https://img.shields.io/badge/Python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
+![PHP](https://img.shields.io/badge/PHP-777BB4?style=for-the-badge&logo=php&logoColor=white)
+![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)
+
+**Databases**
+
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white)
+![MongoDB](https://img.shields.io/badge/MongoDB-4EA94B?style=for-the-badge&logo=mongodb&logoColor=white)
+![MySQL](https://img.shields.io/badge/MySQL-00f?style=for-the-badge&logo=mysql&logoColor=white)
+
+**Tools**
+
+![Git](https://img.shields.io/badge/Git-F05033?style=for-the-badge&logo=git&logoColor=white)
+![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-0db7ed?style=for-the-badge&logo=docker&logoColor=white)
+![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
+
+---
+
+## 📊 GitHub Stats
 
 <div align="center">
 
-![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white)
-![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white)
-![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)
-![React](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB)
-![TailwindCSS](https://img.shields.io/badge/tailwindcss-%2338B2AC.svg?style=for-the-badge&logo=tailwind-css&logoColor=white)
-![NodeJS](https://img.shields.io/badge/node.js-6DA55F?style=for-the-badge&logo=node.js&logoColor=white)
-![Express.js](https://img.shields.io/badge/express.js-%23404d59.svg?style=for-the-badge&logo=express&logoColor=%2361DAFB)
-![Java](https://img.shields.io/badge/java-%23ED8B00.svg?style=for-the-badge&logo=openjdk&logoColor=white)
-![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
-![PHP](https://img.shields.io/badge/php-%23777BB4.svg?style=for-the-badge&logo=php&logoColor=white)
-![MySQL](https://img.shields.io/badge/mysql-%2300f.svg?style=for-the-badge&logo=mysql&logoColor=white)
-![Git](https://img.shields.io/badge/git-%23F05033.svg?style=for-the-badge&logo=git&logoColor=white)
-![Docker](https://img.shields.io/badge/docker-%230db7ed.svg?style=for-the-badge&logo=docker&logoColor=white)
-![Linux](https://img.shields.io/badge/linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
+![Streak](https://streak-stats.demolab.com?user=AlansitoFdez&theme=tokyonight&hide_border=true&date_format=j%20M%5B%20Y%5D&locale=es)
 
 </div>
 
 ---
 
-<!-- 🔥 STREAK — streak-stats -->
-
-<div align="center">
-  <img src="https://streak-stats.demolab.com?user=AlansitoFdez&theme=tokyonight&hide_border=true&date_format=j%20M%5B%20Y%5D&locale=es" />
-</div>
-
----
-
-<!-- 🐍 SNAKE — Platane/snk -->
-
-<div align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/AlansitoFdez/AlansitoFdez/output/github-snake-dark.svg" />
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/AlansitoFdez/AlansitoFdez/output/github-snake.svg" />
-    <img alt="github-snake" src="https://raw.githubusercontent.com/AlansitoFdez/AlansitoFdez/output/github-snake.svg" />
-  </picture>
-</div>
-
----
-
-<!-- 📬 CONTACTO -->
+## 📬 Contact
 
 <div align="center">
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/alan-fdez/)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/alan-fdez/)
 [![Gmail](https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:alanfdiosdado@gmail.com)
 
 </div>
 
-<!-- Banner de cierre -->
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=100&section=footer"/>
+![Footer](https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=100&section=footer)
