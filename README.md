@@ -1,6 +1,6 @@
 <div align="center">
 
-![Header](https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=200&section=header&text=Alan%20Fernández&fontSize=42&fontColor=fff&animation=twinkling&fontAlignY=32&desc=Full%20Stack%20Developer%20%7C%20React%20%7C%20Node.js%20%7C%20TypeScript%20%7C%20Python&descAlignY=55&descSize=18)
+![Header](https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=200&section=header&text=Alan%20Fern%C3%A1ndez&fontSize=42&fontColor=fff&animation=twinkling&fontAlignY=32&desc=Full%20Stack%20Developer%20%7C%20React%20%7C%20Node.js%20%7C%20TypeScript%20%7C%20Python&descAlignY=55&descSize=18)
 
 [![Typing SVG](https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=22&duration=3000&pause=800&color=58A6FF&center=true&vCenter=true&random=false&width=550&lines=Hey%2C+I'm+Alan+%F0%9F%91%8B;Full+Stack+Developer+%F0%9F%9A%80;Building+real+products%2C+not+just+tutorials;React+%7C+Node.js+%7C+TypeScript+%7C+Python)](https://git.io/typing-svg)
 
@@ -15,7 +15,7 @@ const alan = {
   name:       "Alan Fernández",
   role:       "Full Stack Developer",
   stack:      ["React", "Node.js", "TypeScript", "Python", "PostgreSQL"],
-  learning:   ["Next.js", "RAG Systems", "AI Integration"],
+  learning:   ["LangGraph", "Multi-Agent Systems", "WebSockets", "MCP"],
   looking:    "First professional role as Full Stack Developer",
   openTo:     ["Remote", "Spain", "International"],
   motto:      "Build things that actually work 🚀"
@@ -27,24 +27,56 @@ const alan = {
 ## 🚀 Featured Projects
 
 ### 🎬 [Cinesfera](https://github.com/AlansitoFdez/Cinesfera)
-> Plataforma social full stack al estilo Letterboxd con integración de IA
+> Social film platform with AI recommendations and streaming availability
 
-- 🔍 Búsqueda de películas y series con disponibilidad en plataformas de streaming
-- 📋 Listas personalizadas, reseñas y sistema social entre usuarios
-- 🤖 Recomendaciones de IA basadas en favoritos y reseñas
-- 🔗 API REST propia integrada con TMDB
+- 🔍 Search for movies and series with real-time streaming platform availability
+- 📋 Personalized lists, reviews and social system between users
+- 🤖 AI recommendations based on favorites and reviews
+- 🔗 Custom REST API integrated with TMDB
 
 **Stack:** React · Tailwind CSS · GSAP · Node.js · Express · JWT · PostgreSQL
 
-[![Ver App](https://img.shields.io/badge/🌐_Ver_App-Live-success?style=for-the-badge)](https://cinesfera.vercel.app)
-[![Repo](https://img.shields.io/badge/📂_Código-GitHub-181717?style=for-the-badge&logo=github)](https://github.com/AlansitoFdez/Cinesfera)
+[![Ver App](https://img.shields.io/badge/🌐_Live_App-success?style=for-the-badge)](https://cinesfera.vercel.app)
+[![Repo](https://img.shields.io/badge/📂_Code-GitHub-181717?style=for-the-badge&logo=github)](https://github.com/AlansitoFdez/Cinesfera)
 
 ---
 
-### 🤖 Sistema RAG con IA *(En construcción)*
-> Software de recuperación aumentada de información con IA
+### 🧠 [MyBrain](https://github.com/AlansitoFdez/MyBrain)
+> Personal second-brain app with RAG, semantic search and AI chat over your notes
 
-**Stack:** Next.js · TypeScript · Python
+- 📝 Ingest notes, PDFs and URLs — your knowledge base, not generic AI
+- 🔍 Semantic search with pgvector and Mistral embeddings (1024-dim)
+- 💬 AI chat strictly grounded on your own notes via RAG
+- ⚡ Real-time streaming responses with SSE
+
+**Stack:** Next.js · TypeScript · Python · FastAPI · PostgreSQL · pgvector · Groq (Llama 3.3 70B) · Mistral Embeddings
+
+[![Ver App](https://img.shields.io/badge/🌐_Live_App-success?style=for-the-badge)](https://mybrain.alanfdez.dev)
+[![Repo](https://img.shields.io/badge/📂_Code-GitHub-181717?style=for-the-badge&logo=github)](https://github.com/AlansitoFdez/MyBrain)
+
+---
+
+### 🍺 Bar Nino *(In progress)*
+> Full-stack reservation platform with real-time interactive floor map
+
+- 🗺️ Interactive bar map with live table status (free / being reserved / occupied)
+- ⚡ Real-time state sync across all connected users via WebSockets
+- ⏱️ Redis TTL-based temporary locking when a customer starts reserving a table
+- 🛠️ Admin panel for managing the floor plan, menu and reservations
+
+**Stack:** Next.js · TypeScript · Node.js · Express · Socket.io · Redis · PostgreSQL · Konva.js
+
+---
+
+### 🤖 Multi-Agent Orchestrator *(In progress)*
+> AI system where specialized agents collaborate autonomously to manage support tickets
+
+- 🧩 LangGraph-powered directed graph with persistent shared state across agents
+- 🔌 Custom MCP server exposing tools to agents via the Model Context Protocol
+- 👁️ Human-in-the-loop approval for high-impact actions before execution
+- 📊 Real-time dashboard showing live agent reasoning and ticket processing
+
+**Stack:** FastAPI · Python · LangGraph · MCP · Next.js · TypeScript · PostgreSQL · Redis · Groq
 
 ---
 
@@ -65,6 +97,7 @@ const alan = {
 ![Node.js](https://img.shields.io/badge/Node.js-6DA55F?style=for-the-badge&logo=node.js&logoColor=white)
 ![Express.js](https://img.shields.io/badge/Express.js-404D59?style=for-the-badge&logo=express&logoColor=61DAFB)
 ![Python](https://img.shields.io/badge/Python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
+![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white)
 ![PHP](https://img.shields.io/badge/PHP-777BB4?style=for-the-badge&logo=php&logoColor=white)
 ![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)
 
@@ -73,6 +106,12 @@ const alan = {
 ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white)
 ![MongoDB](https://img.shields.io/badge/MongoDB-4EA94B?style=for-the-badge&logo=mongodb&logoColor=white)
 ![MySQL](https://img.shields.io/badge/MySQL-00f?style=for-the-badge&logo=mysql&logoColor=white)
+![Redis](https://img.shields.io/badge/Redis-DC382D?style=for-the-badge&logo=redis&logoColor=white)
+
+**AI / ML**
+
+![LangGraph](https://img.shields.io/badge/LangGraph-1C3C3C?style=for-the-badge&logo=langchain&logoColor=white)
+![Groq](https://img.shields.io/badge/Groq-F55036?style=for-the-badge&logoColor=white)
 
 **Tools**
 
