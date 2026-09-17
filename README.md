@@ -126,7 +126,7 @@ const alan = {
 
 <div align="center">
 
-![Streak](https://streak-stats.demolab.com?user=AlansitoFdez&theme=tokyonight&hide_border=true&date_format=j%20M%5B%20Y%5D&locale=es)
+![Streak](https://streak-stats.demolab.com?user=alan-fdez&theme=tokyonight&hide_border=true&date_format=j%20M%5B%20Y%5D&locale=es)
 
 </div>
 
